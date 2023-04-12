@@ -1,7 +1,7 @@
 
-## ascii-art
+# ascii-art
 
-# Description
+## Description
 
 Ascii-art is a program which consists in receiving a string as an argument and outputting the string in a graphic representation using ASCII. In this project use banner standard.txt
 
@@ -40,7 +40,7 @@ Banner Format
 ......
 ```
 
-# Usage
+## Usage
 
 ```console
 student$ go run . "" | cat -e
@@ -121,7 +121,7 @@ $
                                        $
 ```
 
-# Implementation details
+## Implementation details
 
 - read file to []byte
 - split string into substrings separated by \n
